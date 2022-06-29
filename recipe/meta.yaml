@@ -1,4 +1,4 @@
-{% set version = "2.6.4" %}
+{% set version = "2.6.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gld_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gld/gld_{{ version }}.tar.gz
-  sha256: 0db6daee1b6e256d64d292c1f6795c505677331dcf2f97e04e264566ded93323
+  sha256: 8294f7c033147aa9b559b152ec9d46d380234527d1ab03adbe46b80d5da68ee9
 
 build:
   merge_build_host: true  # [win]
