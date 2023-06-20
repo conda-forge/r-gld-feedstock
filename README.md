@@ -1,11 +1,22 @@
+About r-gld-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gld-feedstock/blob/main/LICENSE.txt)
+
 About r-gld
-===========
+-----------
 
 Home: http://tolstoy.newcastle.edu.au/~rking/publ/rprogs/information.html
 
 Package license: GPL-2.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gld-feedstock/blob/main/LICENSE.txt)
+Summary: The generalised lambda distribution, or Tukey lambda distribution, provides a wide variety of shapes with one functional form. This package provides random numbers, quantiles, probabilities, densities and density quantiles for four different types of the distribution, the FKML (Freimer et al 1988), RS (Ramberg and Schmeiser 1974), GPD (van Staden and Loots 2009) and FM5 - see documentation for details. It provides the density function, distribution function, and Quantile-Quantile plots. It implements a variety of estimation methods for the distribution, including diagnostic plots. Estimation methods include the starship (all 4 types), method of L-Moments for the GPD and FKML types, and a number of methods for only the FKML type. These include maximum likelihood, maximum product of spacings, Titterington's method, Moments, Trimmed L-Moments and Distributional Least Absolutes.
+About r-gld
+-----------
+
+Home: http://tolstoy.newcastle.edu.au/~rking/publ/rprogs/information.html
+
+Package license: GPL-2.0-only
 
 Summary: The generalised lambda distribution, or Tukey lambda distribution, provides a wide variety of shapes with one functional form. This package provides random numbers, quantiles, probabilities, densities and density quantiles for four different types of the distribution, the FKML (Freimer et al 1988), RS (Ramberg and Schmeiser 1974), GPD (van Staden and Loots 2009) and FM5 - see documentation for details. It provides the density function, distribution function, and Quantile-Quantile plots. It implements a variety of estimation methods for the distribution, including diagnostic plots. Estimation methods include the starship (all 4 types), method of L-Moments for the GPD and FKML types, and a number of methods for only the FKML type. These include maximum likelihood, maximum product of spacings, Titterington's method, Moments, Trimmed L-Moments and Distributional Least Absolutes.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9729&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gld-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9729&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9729&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gld-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gld-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -55,10 +59,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_r_base4.1</td>
+              <td>osx_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9729&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gld-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gld-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -66,6 +70,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9729&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gld-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9729&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-gld-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
