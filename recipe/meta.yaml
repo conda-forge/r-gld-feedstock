@@ -1,6 +1,5 @@
 {% set version = "2.6.6" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-gld
@@ -13,8 +12,7 @@ source:
   sha256: ea23e9781207b5d47ed04e4d5758d9652cab5d1eedcf9fbc9c2ee4d3babffdc4
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -25,7 +23,9 @@ requirements:
     - r-e1071                    # [build_platform != target_platform]
     - r-lmom                     # [build_platform != target_platform]
     - {{ compiler('c') }}              # [not win]
+    - {{ stdlib("c") }}                # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
+    - {{ stdlib("m2w64_c") }}          # [win]
     - {{ posix }}filesystem        # [win]
     - {{ posix }}make
     - {{ posix }}sed               # [win]
@@ -37,7 +37,6 @@ requirements:
     - r-lmom
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
     - r-e1071
     - r-lmom
 
