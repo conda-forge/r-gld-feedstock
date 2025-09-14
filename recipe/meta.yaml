@@ -1,4 +1,4 @@
-{% set version = "2.6.7" %}
+{% set version = "2.6.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gld_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gld/gld_{{ version }}.tar.gz
-  sha256: cc6ff7a4b8980ad04ed215295ea6053f0e7720ae7e00826e97bfa2cb82b5a070
+  sha256: aeb2bb7342ec2d425397c8d391be3c399fe897b3992eba42b54cbaf16789768e
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
